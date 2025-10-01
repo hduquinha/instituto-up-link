@@ -104,39 +104,39 @@ body::before {
 }
 
 /* Imagens específicas para cada card */
-/* Up Day Clie (Treinamento) - primeiro card da primeira seção */
+/* Encontro Up - primeiro card da primeira seção */
 .section:nth-child(2) .link-card:nth-child(2)::before {
-    background-image: url('img/up-day.jpeg');
+    background-image: url('img/14.png');
 }
 
-/* Encontro Up - segundo card da primeira seção */
+/* Up Day Clie - segundo card da primeira seção */
 .section:nth-child(2) .link-card:nth-child(3)::before {
-    background-image: url('img/up.png');
+    background-image: url('img/upday.png');
 }
 
 /* Mentoria - primeiro card da segunda seção */
 .section:nth-child(3) .link-card:nth-child(2)::before {
-    background-image: url('img/mentoria-online.jpeg');
+    background-image: url('img/mentoria.png');
 }
 
 /* Co-Terapia - segundo card da segunda seção */
 .section:nth-child(3) .link-card:nth-child(3)::before {
-    background-image: url('img/co-terapia.jpeg');
+    background-image: url('img/co-terapia.png');
 }
 
 /* Palestras - primeiro card da terceira seção */
 .section:nth-child(4) .link-card:nth-child(2)::before {
-    background-image: url('img/palestras.jpeg');
+    background-image: url('img/palestras.png');
 }
 
 /* Treinamentos Corporativos - segundo card da terceira seção */
 .section:nth-child(4) .link-card:nth-child(3)::before {
-    background-image: url('img/corporativos.jpeg');
+    background-image: url('img/corporativos.png');
 }
 
 /* Amigos do Up - primeiro card da quarta seção */
 .section:nth-child(5) .link-card:nth-child(2)::before {
-    background-image: url('img/up.png');
+    background-image: url('img/13.png');
 }
 
 .link-card:nth-child(even)::before {
