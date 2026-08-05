@@ -106,12 +106,12 @@ body::before {
 /* Imagens específicas para cada card */
 /* Encontro Up - primeiro card da primeira seção */
 .section:nth-child(2) .link-card:nth-child(2)::before {
-    background-image: url('img/14.png');
+    background-image: url('img/14.jpg');
 }
 
 /* Up Day Clie - segundo card da primeira seção */
 .section:nth-child(2) .link-card:nth-child(3)::before {
-    background-image: url('img/upday.png');
+    background-image: url('img/upday.jpg');
 }
 
 /* Escola VozUP - terceiro card da primeira seção */
@@ -126,6 +126,7 @@ body::before {
     background-size: 200%;
     background-position: 65% 37%;
 }
+
 
 /* Mentoria - primeiro card da segunda seção */
 .section:nth-child(3) .link-card:nth-child(2)::before {
