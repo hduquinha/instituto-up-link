@@ -31,7 +31,20 @@
                     <p>Você não prescisa, VOCÊ MERECE</p>
                 </div>
             </a>
+
+            <!-- As UTMs abaixo não são enfeite: o site da VozUP classifica a
+                 visita em src/lib/trafficSource.ts, e `utm_content=link_in_bio`
+                 é o que faz este clique ser lido como tráfego ORGÂNICO de bio.
+                 Sem elas o lead chega sem origem; com uma UTM de mídia paga por
+                 engano, ele seria creditado a um anúncio que não existiu. -->
+            <a href="https://www.escolavozup.com/?utm_source=instagram&amp;utm_medium=social&amp;utm_content=link_in_bio" class="link-card" target="_blank">
+                <div class="card-content">
+                    <h3>Escola VozUP</h3>
+                    <p>Curso de oratória no Tatuapé</p>
+                </div>
+            </a>
         </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
